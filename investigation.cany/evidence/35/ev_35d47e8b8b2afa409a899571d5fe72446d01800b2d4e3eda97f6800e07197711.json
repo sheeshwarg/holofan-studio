@@ -1,0 +1,280 @@
+{
+  "id": "ev_35d47e8b8b2afa409a899571d5fe72446d01800b2d4e3eda97f6800e07197711",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_library_calls_list",
+  "params": {
+    "contains": "ws2",
+    "kind": null,
+    "limit": 200,
+    "offset": 0,
+    "path": null
+  },
+  "result": {
+    "bound_modules": [],
+    "format": "pe",
+    "imports": [
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 3,
+        "slot": "0x40d0d4"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 4,
+        "slot": "0x40d0e8"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 9,
+        "slot": "0x40d0e0"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 10,
+        "slot": "0x40d0c8"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 11,
+        "slot": "0x40d0e4"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 16,
+        "slot": "0x40d0d0"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 18,
+        "slot": "0x40d0ec"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 19,
+        "slot": "0x40d0cc"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 23,
+        "slot": "0x40d0dc"
+      },
+      {
+        "kind": "normal",
+        "library": "WS2_32.dll",
+        "name": null,
+        "ordinal": 115,
+        "slot": "0x40d0d8"
+      }
+    ],
+    "libraries": [
+      {
+        "by_ordinal_only": 0,
+        "imports": 1,
+        "kinds": [
+          "normal"
+        ],
+        "name": "COMCTL32.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "GDI32.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 22,
+        "kinds": [
+          "normal"
+        ],
+        "name": "KERNEL32.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 15,
+        "kinds": [
+          "normal"
+        ],
+        "name": "USER32.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 5,
+        "kinds": [
+          "normal"
+        ],
+        "name": "VCRUNTIME140.dll"
+      },
+      {
+        "by_ordinal_only": 10,
+        "imports": 10,
+        "kinds": [
+          "normal"
+        ],
+        "name": "WS2_32.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 1,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-convert-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-heap-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-locale-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-math-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 18,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 1,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-string-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 2,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-time-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 1,
+        "kinds": [
+          "normal"
+        ],
+        "name": "api-ms-win-crt-utility-l1-1-0.dll"
+      },
+      {
+        "by_ordinal_only": 240,
+        "imports": 240,
+        "kinds": [
+          "normal"
+        ],
+        "name": "mfc140.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 6,
+        "kinds": [
+          "normal"
+        ],
+        "name": "opencv_core310.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 8,
+        "kinds": [
+          "normal"
+        ],
+        "name": "opencv_highgui310.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 4,
+        "kinds": [
+          "normal"
+        ],
+        "name": "opencv_imgproc310.dll"
+      },
+      {
+        "by_ordinal_only": 0,
+        "imports": 6,
+        "kinds": [
+          "normal"
+        ],
+        "name": "opencv_videoio310.dll"
+      }
+    ],
+    "matching": 10,
+    "path": "/tmp/claude-502/holo-orig/out/电脑软件V13.0(Windows App V13.0)/@Windows app(V13.0).exe",
+    "total": 350
+  },
+  "summary": "350 imported function(s) from 20 libraries.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 10,
+    "total": 10
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "/tmp/claude-502/holo-orig/out/电脑软件V13.0(Windows App V13.0)/@Windows app(V13.0).exe"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

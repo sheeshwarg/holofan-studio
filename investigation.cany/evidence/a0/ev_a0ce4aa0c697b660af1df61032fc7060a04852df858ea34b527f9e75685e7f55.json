@@ -1,0 +1,74 @@
+{
+  "id": "ev_a0ce4aa0c697b660af1df61032fc7060a04852df858ea34b527f9e75685e7f55",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_find",
+  "params": {
+    "encoding": "both",
+    "limit": 100,
+    "offset": 0,
+    "path": null,
+    "pattern": "10 4c 40 00",
+    "text": null
+  },
+  "result": {
+    "file_size": 4225536,
+    "limit": 100,
+    "match_cap_reached": false,
+    "matches": [
+      {
+        "address": "0x40e93c",
+        "bytes": "104c4000",
+        "file_offset": 54588,
+        "file_offset_hex": "0xd53c",
+        "length": 4,
+        "matched": "pattern",
+        "section": ".rdata"
+      }
+    ],
+    "native_container": "pe",
+    "offset": 0,
+    "path": "/tmp/claude-502/holo-orig/out/电脑软件V13.0(Windows App V13.0)/@Windows app(V13.0).exe",
+    "searched_for": [
+      {
+        "kind": "pattern",
+        "length": 4
+      }
+    ],
+    "total_matches": 1
+  },
+  "summary": "1 match(es) for pattern in @Windows app(V13.0).exe; showing 1 from #0.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "file_bytes_only",
+      "message": "The file's bytes are searched as stored: compressed, encrypted or packed regions and data built at run time are not seen, so no match is not proof of absence."
+    },
+    {
+      "code": "unmapped_regions",
+      "message": "Matches in headers, overlays or debug data that are not loaded into memory have no virtual address."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "file_offset",
+      "value": "0xd53c"
+    }
+  ],
+  "links": []
+}

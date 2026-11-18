@@ -1,0 +1,1284 @@
+{
+  "id": "ev_60f9dad259f12f8640d85fd66640019d7264ab28903370618bc857096dd4c644",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_functions_list",
+  "params": {
+    "limit": 400,
+    "offset": 0
+  },
+  "result": {
+    "functions": [
+      {
+        "address": "0x401080",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 34,
+        "name": "sub_401080",
+        "name_source": "generated",
+        "size": 110,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4010f0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 10,
+        "name": "sub_4010f0",
+        "name_source": "generated",
+        "size": 41,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401270",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "sub_401270",
+        "name_source": "generated",
+        "size": 1,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401280",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 6,
+        "name": "sub_401280",
+        "name_source": "generated",
+        "size": 17,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4012c0",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 26,
+        "name": "sub_4012c0",
+        "name_source": "generated",
+        "size": 63,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401300",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 25,
+        "name": "sub_401300",
+        "name_source": "generated",
+        "size": 57,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401340",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 32,
+        "name": "sub_401340",
+        "name_source": "generated",
+        "size": 96,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401460",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 28,
+        "name": "sub_401460",
+        "name_source": "generated",
+        "size": 78,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4014b0",
+        "blocks": 7,
+        "found_by": "call",
+        "instructions": 27,
+        "name": "sub_4014b0",
+        "name_source": "generated",
+        "size": 98,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401530",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 25,
+        "name": "sub_401530",
+        "name_source": "generated",
+        "size": 61,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401570",
+        "blocks": 6,
+        "found_by": "prologue",
+        "instructions": 73,
+        "name": "sub_401570",
+        "name_source": "generated",
+        "size": 264,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401680",
+        "blocks": 7,
+        "found_by": "prologue",
+        "instructions": 71,
+        "name": "sub_401680",
+        "name_source": "generated",
+        "size": 277,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401820",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 30,
+        "name": "sub_401820",
+        "name_source": "generated",
+        "size": 69,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401870",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 18,
+        "name": "sub_401870",
+        "name_source": "generated",
+        "size": 55,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4018b0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 51,
+        "name": "sub_4018b0",
+        "name_source": "generated",
+        "size": 192,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401970",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 31,
+        "name": "sub_401970",
+        "name_source": "generated",
+        "size": 92,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4019e0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 141,
+        "name": "sub_4019e0",
+        "name_source": "generated",
+        "size": 1012,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401de0",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 25,
+        "name": "sub_401de0",
+        "name_source": "generated",
+        "size": 60,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401e20",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 9,
+        "name": "sub_401e20",
+        "name_source": "generated",
+        "size": 28,
+        "thunk_of": null
+      },
+      {
+        "address": "0x401e50",
+        "blocks": 15,
+        "found_by": "prologue",
+        "instructions": 236,
+        "name": "sub_401e50",
+        "name_source": "generated",
+        "size": 802,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402180",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 44,
+        "name": "sub_402180",
+        "name_source": "generated",
+        "size": 174,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402230",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 77,
+        "name": "sub_402230",
+        "name_source": "generated",
+        "size": 214,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402320",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 33,
+        "name": "sub_402320",
+        "name_source": "generated",
+        "size": 101,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402390",
+        "blocks": 15,
+        "found_by": "prologue",
+        "instructions": 46,
+        "name": "sub_402390",
+        "name_source": "generated",
+        "size": 143,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402420",
+        "blocks": 28,
+        "found_by": "call",
+        "instructions": 417,
+        "name": "sub_402420",
+        "name_source": "generated",
+        "size": 1674,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402ab0",
+        "blocks": 7,
+        "found_by": "prologue",
+        "instructions": 55,
+        "name": "sub_402ab0",
+        "name_source": "generated",
+        "size": 162,
+        "thunk_of": null
+      },
+      {
+        "address": "0x402b60",
+        "blocks": 66,
+        "found_by": "call",
+        "instructions": 721,
+        "name": "sub_402b60",
+        "name_source": "generated",
+        "size": 4796,
+        "thunk_of": null
+      },
+      {
+        "address": "0x403e80",
+        "blocks": 106,
+        "found_by": "prologue",
+        "instructions": 790,
+        "name": "sub_403e80",
+        "name_source": "generated",
+        "size": 3378,
+        "thunk_of": null
+      },
+      {
+        "address": "0x404cd0",
+        "blocks": 11,
+        "found_by": "prologue",
+        "instructions": 76,
+        "name": "sub_404cd0",
+        "name_source": "generated",
+        "size": 213,
+        "thunk_of": null
+      },
+      {
+        "address": "0x404db0",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 196,
+        "name": "sub_404db0",
+        "name_source": "generated",
+        "size": 767,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4050b0",
+        "blocks": 44,
+        "found_by": "prologue",
+        "instructions": 528,
+        "name": "sub_4050b0",
+        "name_source": "generated",
+        "size": 2415,
+        "thunk_of": null
+      },
+      {
+        "address": "0x405a20",
+        "blocks": 34,
+        "found_by": "prologue",
+        "instructions": 217,
+        "name": "sub_405a20",
+        "name_source": "generated",
+        "size": 925,
+        "thunk_of": null
+      },
+      {
+        "address": "0x405dc0",
+        "blocks": 190,
+        "found_by": "prologue",
+        "instructions": 3155,
+        "name": "sub_405dc0",
+        "name_source": "generated",
+        "size": 11090,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408920",
+        "blocks": 6,
+        "found_by": "prologue",
+        "instructions": 91,
+        "name": "sub_408920",
+        "name_source": "generated",
+        "size": 347,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408a80",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 68,
+        "name": "sub_408a80",
+        "name_source": "generated",
+        "size": 235,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408b70",
+        "blocks": 8,
+        "found_by": "prologue",
+        "instructions": 140,
+        "name": "sub_408b70",
+        "name_source": "generated",
+        "size": 430,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408ec0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 9,
+        "name": "sub_408ec0",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408ee0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 7,
+        "name": "sub_408ee0",
+        "name_source": "generated",
+        "size": 15,
+        "thunk_of": null
+      },
+      {
+        "address": "0x408ef0",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 69,
+        "name": "sub_408ef0",
+        "name_source": "generated",
+        "size": 285,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409010",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 27,
+        "name": "sub_409010",
+        "name_source": "generated",
+        "size": 58,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409050",
+        "blocks": 10,
+        "found_by": "prologue",
+        "instructions": 42,
+        "name": "sub_409050",
+        "name_source": "generated",
+        "size": 116,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4090d0",
+        "blocks": 36,
+        "found_by": "prologue",
+        "instructions": 217,
+        "name": "sub_4090d0",
+        "name_source": "generated",
+        "size": 730,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4093e0",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 52,
+        "name": "sub_4093e0",
+        "name_source": "generated",
+        "size": 175,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409490",
+        "blocks": 7,
+        "found_by": "prologue",
+        "instructions": 80,
+        "name": "sub_409490",
+        "name_source": "generated",
+        "size": 255,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409890",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 60,
+        "name": "sub_409890",
+        "name_source": "generated",
+        "size": 208,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409960",
+        "blocks": 4,
+        "found_by": "prologue",
+        "instructions": 56,
+        "name": "sub_409960",
+        "name_source": "generated",
+        "size": 196,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409a30",
+        "blocks": 4,
+        "found_by": "prologue",
+        "instructions": 56,
+        "name": "sub_409a30",
+        "name_source": "generated",
+        "size": 196,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409c80",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 11,
+        "name": "sub_409c80",
+        "name_source": "generated",
+        "size": 29,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409ca0",
+        "blocks": 6,
+        "found_by": "prologue",
+        "instructions": 56,
+        "name": "sub_409ca0",
+        "name_source": "generated",
+        "size": 148,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409d40",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 29,
+        "name": "sub_409d40",
+        "name_source": "generated",
+        "size": 80,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409dc0",
+        "blocks": 7,
+        "found_by": "prologue",
+        "instructions": 79,
+        "name": "sub_409dc0",
+        "name_source": "generated",
+        "size": 255,
+        "thunk_of": null
+      },
+      {
+        "address": "0x409ec0",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 154,
+        "name": "sub_409ec0",
+        "name_source": "generated",
+        "size": 534,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a0e0",
+        "blocks": 6,
+        "found_by": "prologue",
+        "instructions": 34,
+        "name": "sub_40a0e0",
+        "name_source": "generated",
+        "size": 86,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a140",
+        "blocks": 12,
+        "found_by": "prologue",
+        "instructions": 110,
+        "name": "sub_40a140",
+        "name_source": "generated",
+        "size": 317,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a280",
+        "blocks": 6,
+        "found_by": "prologue",
+        "instructions": 44,
+        "name": "sub_40a280",
+        "name_source": "generated",
+        "size": 136,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a310",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 158,
+        "name": "sub_40a310",
+        "name_source": "generated",
+        "size": 424,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a4c0",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 25,
+        "name": "sub_40a4c0",
+        "name_source": "generated",
+        "size": 57,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a500",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 43,
+        "name": "sub_40a500",
+        "name_source": "generated",
+        "size": 107,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a570",
+        "blocks": 11,
+        "found_by": "prologue",
+        "instructions": 64,
+        "name": "sub_40a570",
+        "name_source": "generated",
+        "size": 177,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a640",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 40,
+        "name": "sub_40a640",
+        "name_source": "generated",
+        "size": 146,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a6e0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 19,
+        "name": "sub_40a6e0",
+        "name_source": "generated",
+        "size": 95,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a750",
+        "blocks": 4,
+        "found_by": "prologue",
+        "instructions": 51,
+        "name": "sub_40a750",
+        "name_source": "generated",
+        "size": 170,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40a940",
+        "blocks": 4,
+        "found_by": "prologue",
+        "instructions": 41,
+        "name": "sub_40a940",
+        "name_source": "generated",
+        "size": 136,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40aa90",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 32,
+        "name": "sub_40aa90",
+        "name_source": "generated",
+        "size": 98,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b046",
+        "blocks": 6,
+        "found_by": "code_pointer",
+        "instructions": 59,
+        "name": "sub_40b046",
+        "name_source": "generated",
+        "size": 266,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b07a",
+        "blocks": 8,
+        "found_by": "call",
+        "instructions": 30,
+        "name": "sub_40b07a",
+        "name_source": "generated",
+        "size": 68,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b0be",
+        "blocks": 6,
+        "found_by": "call",
+        "instructions": 21,
+        "name": "sub_40b0be",
+        "name_source": "generated",
+        "size": 50,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b0f0",
+        "blocks": 7,
+        "found_by": "call",
+        "instructions": 22,
+        "name": "sub_40b0f0",
+        "name_source": "generated",
+        "size": 57,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b1ce",
+        "blocks": 8,
+        "found_by": "call",
+        "instructions": 38,
+        "name": "sub_40b1ce",
+        "name_source": "generated",
+        "size": 126,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b262",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 12,
+        "name": "sub_40b262",
+        "name_source": "generated",
+        "size": 29,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b27f",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 15,
+        "name": "sub_40b27f",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b2f7",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 12,
+        "name": "sub_40b2f7",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b63a",
+        "blocks": 20,
+        "found_by": "call",
+        "instructions": 110,
+        "name": "sub_40b63a",
+        "name_source": "generated",
+        "size": 327,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b7b6",
+        "blocks": 1,
+        "found_by": "entry_point",
+        "instructions": 2,
+        "name": "entry",
+        "name_source": "entry_point",
+        "size": 10,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b7c0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 21,
+        "name": "sub_40b7c0",
+        "name_source": "generated",
+        "size": 70,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b87a",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 12,
+        "name": "sub_40b87a",
+        "name_source": "generated",
+        "size": 35,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40b89d",
+        "blocks": 21,
+        "found_by": "call",
+        "instructions": 129,
+        "name": "sub_40b89d",
+        "name_source": "generated",
+        "size": 407,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40ba38",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 4,
+        "name": "sub_40ba38",
+        "name_source": "generated",
+        "size": 12,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40ba44",
+        "blocks": 6,
+        "found_by": "call",
+        "instructions": 73,
+        "name": "sub_40ba44",
+        "name_source": "generated",
+        "size": 282,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bb5e",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 21,
+        "name": "sub_40bb5e",
+        "name_source": "generated",
+        "size": 49,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bb94",
+        "blocks": 8,
+        "found_by": "call",
+        "instructions": 22,
+        "name": "sub_40bb94",
+        "name_source": "generated",
+        "size": 67,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bc24",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 2,
+        "name": "sub_40bc24",
+        "name_source": "generated",
+        "size": 8,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bc2c",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 25,
+        "name": "sub_40bc2c",
+        "name_source": "generated",
+        "size": 77,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bc79",
+        "blocks": 8,
+        "found_by": "call",
+        "instructions": 26,
+        "name": "sub_40bc79",
+        "name_source": "generated",
+        "size": 75,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bcd6",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 2,
+        "name": "sub_40bcd6",
+        "name_source": "generated",
+        "size": 3,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bd2f",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 2,
+        "name": "sub_40bd2f",
+        "name_source": "generated",
+        "size": 6,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bd35",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 2,
+        "name": "sub_40bd35",
+        "name_source": "generated",
+        "size": 6,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bd93",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "IsProcessorFeaturePresent@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "IsProcessorFeaturePresent"
+      },
+      {
+        "address": "0x40be42",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "__CxxFrameHandler3@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "__CxxFrameHandler3"
+      },
+      {
+        "address": "0x40be4e",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "memset@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "memset"
+      },
+      {
+        "address": "0x40be54",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_except_handler4_common@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_except_handler4_common"
+      },
+      {
+        "address": "0x40be7e",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_cexit@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_cexit"
+      },
+      {
+        "address": "0x40be96",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_get_narrow_winmain_command_line@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_get_narrow_winmain_command_line"
+      },
+      {
+        "address": "0x40be9c",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_initterm@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_initterm"
+      },
+      {
+        "address": "0x40bea2",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_initterm_e@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_initterm_e"
+      },
+      {
+        "address": "0x40bea8",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "exit@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "exit"
+      },
+      {
+        "address": "0x40beae",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_exit@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_exit"
+      },
+      {
+        "address": "0x40bec0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_register_thread_local_exe_atexit_callback@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_register_thread_local_exe_atexit_callback"
+      },
+      {
+        "address": "0x40bf0c",
+        "blocks": 2,
+        "found_by": "call",
+        "instructions": 5,
+        "name": "sub_40bf0c",
+        "name_source": "generated",
+        "size": 15,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bf20",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 19,
+        "name": "sub_40bf20",
+        "name_source": "generated",
+        "size": 45,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bf4d",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "memcpy@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "memcpy"
+      },
+      {
+        "address": "0x40bf53",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 1,
+        "name": "_libm_sse2_sqrt_precise@thunk",
+        "name_source": "import_thunk",
+        "size": 6,
+        "thunk_of": "_libm_sse2_sqrt_precise"
+      },
+      {
+        "address": "0x40bf6c",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40bf6c",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bfa0",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40bfa0",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40bfd6",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40bfd6",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c000",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c000",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c020",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c020",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c059",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c059",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c0de",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c0de",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c114",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c114",
+        "name_source": "generated",
+        "size": 30,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c14b",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c14b",
+        "name_source": "generated",
+        "size": 30,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c18a",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c18a",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c1e4",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c1e4",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c2c1",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c2c1",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c30e",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c30e",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c3ee",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c3ee",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c474",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c474",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c5a6",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 10,
+        "name": "sub_40c5a6",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c5d9",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c5d9",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c609",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c609",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c64a",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c64a",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c68b",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c68b",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c6b0",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c6b0",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      },
+      {
+        "address": "0x40c6d9",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_40c6d9",
+        "name_source": "generated",
+        "size": 27,
+        "thunk_of": null
+      }
+    ],
+    "total": 124
+  },
+  "summary": "124 functions (showing 124).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 124,
+    "total": 124
+  },
+  "locations": [],
+  "links": []
+}

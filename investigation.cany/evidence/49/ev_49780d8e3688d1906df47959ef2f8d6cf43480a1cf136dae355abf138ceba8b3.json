@@ -1,0 +1,148 @@
+{
+  "id": "ev_49780d8e3688d1906df47959ef2f8d6cf43480a1cf136dae355abf138ceba8b3",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 100,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "192\\.168|\\d{4,5}|ip|port"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x40d8b0",
+        "references": [],
+        "section": ".rdata",
+        "text": "c:\\program files (x86)\\microsoft visual studio\\2017\\community\\vc\\tools\\msvc\\14.16.27023\\atlmfc\\include\\afxwin1.inl"
+      },
+      {
+        "address": "0x40dc7c",
+        "references": [
+          {
+            "from": "0x401a29",
+            "function": "sub_4019e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "192.168.4.1"
+      },
+      {
+        "address": "0x40dd54",
+        "references": [
+          {
+            "from": "0x403fee",
+            "function": "sub_403e80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "123456789"
+      },
+      {
+        "address": "0x40e120",
+        "references": [
+          {
+            "from": "0x4041d8",
+            "function": "sub_403e80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "This product is a low quality counterfeit, it is suggested to contact the seller to return the goods, you can contact 18825861692(WeChat same number), we will provide you with better quality products at a lower price!"
+      },
+      {
+        "address": "0x4111c6",
+        "references": [],
+        "section": ".rdata",
+        "text": "??0_IplImage@@QAE@ABVMat@cv@@@Z"
+      },
+      {
+        "address": "0x713e8a",
+        "references": [],
+        "section": ".rsrc",
+        "text": "(C) 2018"
+      },
+      {
+        "address": "0x714a0e",
+        "references": [],
+        "section": ".rsrc",
+        "text": "080404B0"
+      },
+      {
+        "address": "0x714a5e",
+        "references": [],
+        "section": ".rsrc",
+        "text": "FileDescription"
+      },
+      {
+        "address": "0xb08420",
+        "references": [],
+        "section": ".rsrc",
+        "text": "﻿<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\"><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><application xmlns=\"urn:schemas-microsoft-com:asm.v3\"><windowsSettings><dpiAware xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\">true</dpiAware></windowsSettings></application></assembly>"
+      },
+      {
+        "address": "0xb09a67",
+        "references": [],
+        "section": ".reloc",
+        "text": "0$0*00060<0B0H0c0"
+      },
+      {
+        "address": "0xb0a0d7",
+        "references": [],
+        "section": ".reloc",
+        "text": "0 0$0(0,0004080<0@0D0H0L0P0T0X0\\0`0d0h0l0p0(1,1D1\\1t1"
+      },
+      {
+        "address": "0xb0a135",
+        "references": [],
+        "section": ".reloc",
+        "text": "2 2$2(2,2024282<2@2D2H2L2P2T2X2\\2`2d2h2l2p2t2x2|2"
+      },
+      {
+        "address": "0xb0a1b5",
+        "references": [],
+        "section": ".reloc",
+        "text": "3 3$3(3,3034383<3@3D3H3L3P3T3X3\\3`3d3h3l3p3"
+      },
+      {
+        "address": "0xb0a243",
+        "references": [],
+        "section": ".reloc",
+        "text": "6 6$6(6,6064686<6@6D6H6L6P6T6X6\\6`6d6h6l6p6t6x6|6"
+      },
+      {
+        "address": "0xb0a2c3",
+        "references": [],
+        "section": ".reloc",
+        "text": "7 7$7(7,7074787<7@7D7H7L7P7`7<8@8H8"
+      }
+    ],
+    "total": 15
+  },
+  "summary": "15 strings match \"192\\.168|\\d{4,5}|ip|port\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 15,
+    "total": 15
+  },
+  "locations": [],
+  "links": []
+}

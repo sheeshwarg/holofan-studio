@@ -1,0 +1,85 @@
+{
+  "id": "ev_15afde5cf39c25bd65fdb2ce2dd5cf9a636b88c2734054b296a1133fc8dc5b13",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x405a20"
+  },
+  "result": {
+    "calls": [
+      "edi",
+      "mfc140#1044",
+      "mfc140#1141",
+      "mfc140#12706",
+      "mfc140#13407",
+      "mfc140#1526",
+      "mfc140#2298",
+      "mfc140#300",
+      "mfc140#316",
+      "mfc140#4085",
+      "mfc140#501",
+      "mfc140#5605",
+      "mfc140#6171",
+      "mfc140#6200",
+      "mfc140#6201",
+      "sub_4050b0",
+      "sub_409ca0",
+      "sub_40b046"
+    ],
+    "engine": "clean-room lifter",
+    "entry": "0x405a20",
+    "function": "sub_405a20",
+    "gotos": 14,
+    "inline_asm": 0,
+    "pseudo_code": "int64_t sub_405a20()\n{\n    eax = fs:[0];\n    eax = *(uint32_t*)0x412014;\n    eax ^= ebp;\n    arg_fffffff0 = eax;\n    eax = &arg_fffffff4;\n    fs:[0] = eax;\n    esi = ecx;\n    if (*(uint32_t*)(esi + 0x1c80) != 0) {\n        ecx = &arg_fffffd10;\n        mfc140#501(1, 0, 0, 0x1a04, 0x40e2d4, 0, 0, 1);\n        ecx = &arg_fffffd10;\n        arg_fffffffc = 0;\n        rax = mfc140#6200();\n        ecx = &arg_fffffd10;\n        *(uint32_t*)(eax + 0x30) = 0x40e310;\n        rax = mfc140#4085();\n        ecx = esi;\n        if (eax == 1) {\n            edi = __imp_mfc140#13407;\n            (*edi)(0x3f6, 0x40e338);\n            eax = &arg_fffffcf8;\n            ecx = &arg_fffffd10;\n            rax = mfc140#5605(eax);\n            edx = eax;\n            arg_fffffffc = 1;\n            ecx = &arg_fffffd00;\n            sub_409ca0(0x40e348);\n            ecx = &arg_fffffcf8;\n            arg_fffffffc = 3;\n            mfc140#1044();\n            ecx = &arg_fffffd00;\n            mfc140#12706(0x40e34c, 0x40e348);\n            ecx = &arg_fffffd04;\n            mfc140#316();\n            ecx = &arg_fffffd08;\n            mfc140#316();\n            ecx = &arg_fffffd10;\n            arg_fffffffc = 5;\n            rax = mfc140#6201();\n            eax = *(uint32_t*)(eax + 0x1c);\n            arg_fffffd0c = eax;\n            if (eax == 0) {\n                bl = arg_fffffcff;\nlabel_405d56:\n                arg_fffffd0c = 0;\n                if (bl != 0) {\nlabel_405c8e:\n                    ecx = &arg_fffffd08;\n                    mfc140#1044();\n                    ecx = &arg_fffffd04;\n                    mfc140#1044();\n                    ecx = &arg_fffffd00;\n                    mfc140#1044();\nlabel_405cb2:\n                    esi = 0;\n                } else {\n                    ecx = esi;\n                    (*edi)(0x3f6, 0x40e28c);\n                    *(uint32_t*)(esi + 0x1c8c) = 0;\n                    mfc140#2298(0x40e474, 0, 0);\n                    ecx = &arg_fffffd08;\n                    mfc140#1044();\n                    ecx = &arg_fffffd04;\n                    mfc140#1044();\n                    ecx = &arg_fffffd00;\n                    mfc140#1044();\n                    esi = 1;\n                }\n            } else {\n                while (true) {\n                    eax = &arg_fffffd0c;\n                    eax = &arg_fffffcf8;\n                    ecx = &arg_fffffd10;\n                    rax = mfc140#6171(eax, eax);\n                    ecx = &arg_fffffd04;\n                    arg_fffffffc = 6;\n                    mfc140#1526(eax);\n                    ecx = &arg_fffffcf8;\n                    arg_fffffffc = 5;\n                    mfc140#1044();\n                    eax = &arg_fffffd04;\n                    ecx = &arg_fffffd08;\n                    mfc140#1526(eax);\n                    ecx = &arg_fffffd08;\n                    mfc140#12706(arg_fffffd00, 0x40ee44);\n                    eax = &arg_fffffd08;\n                    arg_fffffcf4 = esp;\n                    ecx = esp;\n                    mfc140#300(eax, ecx);\n                    eax = &arg_fffffd04;\n                    arg_fffffffc = 7;\n                    ecx = esp;\n                    mfc140#300(eax, ecx);\n                    ecx = esi;\n                    arg_fffffffc = 5;\n                    rax = sub_4050b0(arg_8, arg_c);\n                    bl = al;\n                    if (bl != 0) {\n                        goto label_405c58;\n                    } else {\n                        if (arg_fffffd0c != 0) {\n                            continue;\n                        } else {\n                            goto label_405c53;\n                        }\n                        break;\n                    }\n                    break;\n                }\n            }\n        } else {\n            mfc140#13407(0x3f6, 0x40e28c);\n            *(uint32_t*)(esi + 0x1c8c) = 0;\n            goto label_405cb2;\n        }\nlabel_405cb4:\n        ecx = &arg_fffffd10;\n        mfc140#1141();\n        eax = esi;\n    } else {\n        mfc140#13407(0x3f6, 0x40e28c);\n        *(uint32_t*)(esi + 0x1c8c) = 0;\n        mfc140#2298(0x40e29c, 0, 0);\n        eax = 0;\n    }\n    ecx = arg_fffffff4;\n    fs:[0] = ecx;\n    ecx = arg_fffffff0;\n    ecx ^= ebp;\n    sub_40b046();\n    return rax;\nlabel_405c53:\n    goto label_405d56;\nlabel_405c58:\n    ecx = esi;\n    (*edi)(0x3f6, 0x40e28c);\n    *(uint32_t*)(esi + 0x1c8c) = 0;\n    if (bl != 0xfc) {\n        if (bl != 0xfd) {\n            if (bl != 0xfe) {\n                if (bl != 0xfb) {\n                    if (bl != 0xff) {\n                        if (bl != 1) {\n                            if (bl != 2) {\n                                if (bl != 4) {\n                                    mfc140#2298(0x40e44c);\n                                    goto label_405d56;\n                                } else {\nlabel_405c7e:\n                                    mfc140#2298();\n                                    arg_fffffd0c = 0;\n                                    goto label_405c8e;\n                                }\n                            } else {\n                                goto label_405c7e;\n                            }\n                        } else {\n                            goto label_405c7e;\n                        }\n                    } else {\n                        goto label_405c7e;\n                    }\n                } else {\n                    goto label_405c7e;\n                }\n            } else {\n                goto label_405c7e;\n            }\n        } else {\n            goto label_405c7e;\n        }\n    } else {\n        goto label_405c7e;\n    }\n    goto label_405cb4;\n}\n",
+    "signature": "int64_t sub_405a20()",
+    "strings": [],
+    "structured": false
+  },
+  "summary": "Pseudo-C for sub_405a20 (178 lines, partly unstructured).",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "register_level",
+      "message": "variables are machine registers and stack slots; types are not recovered"
+    },
+    {
+      "code": "calling_convention_assumed",
+      "message": "call arguments follow the usual x86 convention and may be wrong for unusual functions"
+    },
+    {
+      "code": "conditions_from_flags",
+      "message": "branch conditions are rebuilt from the last compare and may be approximate"
+    },
+    {
+      "code": "unstructured_flow",
+      "message": "14 gotos remain where the control flow isn't a simple if/loop"
+    },
+    {
+      "code": "deep_engine_unavailable",
+      "message": "Ghidra couldn't open this program (could not start Ghidra: this Ghidra has no decompiler program for this computer, which its public downloads leave out on macOS. Build it once by running `./gradlew buildNatives` in /Users/michaelschichwarg/Library/Application Support/craft-anything/engines/ghidra/ghidra_12.1.4_PUBLIC/support/gradle). So this came from the built-in decompiler, which is less exact."
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x405a20"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

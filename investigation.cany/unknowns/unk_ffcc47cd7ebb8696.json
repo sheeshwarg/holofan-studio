@@ -1,0 +1,20 @@
+{
+  "id": "unk_ffcc47cd7ebb8696",
+  "revision": 3,
+  "question": "What network protocol, address/port and video file format does the hologram fan use (for commands, uploads, 'Decode video' and SD-card files)?",
+  "severity": "high",
+  "domain": "device",
+  "status": "resolved",
+  "probes": [
+    "Fan's manual or vendor protocol documentation",
+    "Person records traffic between the original app and the fan (needs their approval)",
+    "Person shows the files the original writes to the SD card"
+  ],
+  "evidence_for": [
+    "ev_17f66c60bc1453718d34b54ff4375c485e2f31195ec58403e5595aa4125b5098",
+    "ev_fcfdd67e45fe435670229718694a56e8a2a1d465b005bbb1d2d12d4618fbdc34",
+    "ev_fa65d9eaeb8e428119f0ac0919bfd5bf10b28ea8ea4b8d33ff06f0ad03e1d023"
+  ],
+  "evidence_against": [],
+  "resolution": "Network protocol settled from the decompiled original: TCP 192.168.4.1:20320, hello C0EEB7C9BAA3C0EEBDF9E5B7, framed commands (power = 'a'), status frames 'i', upload protocol on a second connection for .BIN files. Verified live (connection stays up, status read). The .BIN video format and SD INI layout moved to unk_60d25f8e7f965360."
+}

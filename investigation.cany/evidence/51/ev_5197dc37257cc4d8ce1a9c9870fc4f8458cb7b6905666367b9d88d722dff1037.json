@@ -1,0 +1,42 @@
+{
+  "id": "ev_5197dc37257cc4d8ce1a9c9870fc4f8458cb7b6905666367b9d88d722dff1037",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x40dd30",
+    "length": 96
+  },
+  "result": {
+    "address": "0x40dd30",
+    "ascii": "....C0EEB7C9BAA3....C0EEBDF9E5B7....123456789...The config of WIFI has been modified successfull",
+    "file_offset": 51504,
+    "hex": "00000000433045454237433942414133000000004330454542444639453542370000000031323334353637383900000054686520636f6e666967206f66205749464920686173206265656e206d6f646966696564207375636365737366756c6c",
+    "length": 96
+  },
+  "summary": "96 bytes at 0x40dd30.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 96,
+    "total": 96
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x40dd30"
+    }
+  ],
+  "links": []
+}

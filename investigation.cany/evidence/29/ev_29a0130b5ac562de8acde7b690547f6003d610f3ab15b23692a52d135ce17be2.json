@@ -1,0 +1,49 @@
+{
+  "id": "ev_29a0130b5ac562de8acde7b690547f6003d610f3ab15b23692a52d135ce17be2",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_function_callers_list",
+  "params": {
+    "function": "0x409050"
+  },
+  "result": {
+    "address_taken": 1,
+    "callers": [],
+    "entry": "0x409050",
+    "function": "sub_409050"
+  },
+  "summary": "sub_409050 is called from 0 places and its address is taken 1 times.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "direct_calls_only",
+      "message": "callers that reach it through function pointers are not listed (see address_taken)"
+    },
+    {
+      "code": "no_static_callers",
+      "message": "no direct callers found; it may be an entry point, a callback or only reached indirectly"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x409050"
+    }
+  ],
+  "links": []
+}

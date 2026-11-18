@@ -1,0 +1,42 @@
+{
+  "id": "ev_a68b895426074e86b7480a0f89a46c253e966173e1c923f3710ac67cb61678bd",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x40e590",
+    "length": 96
+  },
+  "result": {
+    "address": "0x40e590",
+    "ascii": "ing!....C0EEB7C9BAA3C0EEBDF9E5B7....Not connected to the device network,unable to operate!..Conn",
+    "file_offset": 53648,
+    "hex": "696e672100000000433045454237433942414133433045454244463945354237000000004e6f7420636f6e6e656374656420746f2074686520646576696365206e6574776f726b2c756e61626c6520746f206f706572617465210000436f6e6e",
+    "length": 96
+  },
+  "summary": "96 bytes at 0x40e590.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 96,
+    "total": 96
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x40e590"
+    }
+  ],
+  "links": []
+}

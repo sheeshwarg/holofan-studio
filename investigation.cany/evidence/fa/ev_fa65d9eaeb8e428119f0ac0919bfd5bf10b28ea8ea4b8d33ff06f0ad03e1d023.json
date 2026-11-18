@@ -1,0 +1,42 @@
+{
+  "id": "ev_fa65d9eaeb8e428119f0ac0919bfd5bf10b28ea8ea4b8d33ff06f0ad03e1d023",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x40e1f8",
+    "length": 52
+  },
+  "result": {
+    "address": "0x40e1f8",
+    "ascii": "!...a...c...d...e...h...l...g...m...p...q...j...k...",
+    "file_offset": 52728,
+    "hex": "2100000061000000630000006400000065000000680000006c000000670000006d00000070000000710000006a0000006b000000",
+    "length": 52
+  },
+  "summary": "52 bytes at 0x40e1f8.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 52,
+    "total": 52
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x40e1f8"
+    }
+  ],
+  "links": []
+}

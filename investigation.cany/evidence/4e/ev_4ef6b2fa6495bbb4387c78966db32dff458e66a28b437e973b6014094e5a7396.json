@@ -1,0 +1,42 @@
+{
+  "id": "ev_4ef6b2fa6495bbb4387c78966db32dff458e66a28b437e973b6014094e5a7396",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x40e220",
+    "length": 96
+  },
+  "result": {
+    "address": "0x40e220",
+    "ascii": "q...j...k...B2DDDDED....B2DDDDEDC0EEBDF9E5B7.....BIN....mp3.BIN.................................",
+    "file_offset": 52768,
+    "hex": "710000006a0000006b0000004232444444444544000000004232444444444544433045454244463945354237000000002e42494e000000006d70330042494e0000000000b4abcae4cbf8b6a800000000c8a1cffbc9cfb4ab00000000d2f4c6b5",
+    "length": 96
+  },
+  "summary": "96 bytes at 0x40e220.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 96,
+    "total": 96
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x40e220"
+    }
+  ],
+  "links": []
+}

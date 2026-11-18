@@ -1,0 +1,42 @@
+{
+  "id": "ev_8211b608f4d9c19b5a580ccd41fd7c275e7a737d84d569a42ecb961c9d565485",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x403e1c",
+    "length": 84
+  },
+  "result": {
+    "address": "0x403e1c",
+    "ascii": "|+@.\\,@.<-@...@...@../@..0@..1@.|2@.\\3@.<4@..5@..6@..6@..7@..8@..9@..:@.l;@.L<@.==@.",
+    "file_offset": 12828,
+    "hex": "7c2b40005c2c40003c2d40001c2e4000fc2e4000dc2f4000bc3040009c3140007c3240005c3340003c3440001c3540000d364000fd364000dc374000bc384000ad3940008c3a40006c3b40004c3c40003d3d4000",
+    "length": 84
+  },
+  "summary": "84 bytes at 0x403e1c.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 84,
+    "total": 84
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x403e1c"
+    }
+  ],
+  "links": []
+}

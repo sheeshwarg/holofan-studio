@@ -1,0 +1,66 @@
+{
+  "id": "ev_3131f2f47e5096477ecc4265c772aacb855de7eaa8e56e07aff4192bd28270af",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_function_callers_list",
+  "params": {
+    "function": "0x408a80"
+  },
+  "result": {
+    "address_taken": 0,
+    "callers": [
+      {
+        "caller": "0x403e80",
+        "name": "sub_403e80",
+        "site": "0x404186"
+      },
+      {
+        "caller": "0x403e80",
+        "name": "sub_403e80",
+        "site": "0x4049bc"
+      },
+      {
+        "caller": "0x409050",
+        "name": "sub_409050",
+        "site": "0x4090af"
+      },
+      {
+        "caller": "0x409490",
+        "name": "sub_409490",
+        "site": "0x40951f"
+      }
+    ],
+    "entry": "0x408a80",
+    "function": "sub_408a80"
+  },
+  "summary": "sub_408a80 is called from 4 places.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "direct_calls_only",
+      "message": "callers that reach it through function pointers are not listed (see address_taken)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x408a80"
+    }
+  ],
+  "links": []
+}

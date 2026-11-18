@@ -1,0 +1,15 @@
+{
+  "id": "unk_322e5e9c1b5d756b",
+  "revision": 4,
+  "question": "What does the original program do (its core features and screens)? There are no reference pictures and no capture of it running.",
+  "severity": "critical",
+  "domain": "features",
+  "status": "resolved",
+  "probes": [
+    "Person describes the original's features",
+    "Person puts screenshots of the original into reference/"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "The person said it controls/programs videos and animations for a 3D hologram fan and stores them on an SD card, and attached two screenshots: a device-type picker with 20 models (10-ND 4.0\" … 115-F6 45.3\") and a main window with Playing settings (Last one, Single loop, Play/Pause, List loop, Next one), a log list ('Trying to connect to the network of device...'), Device settings (Disconnect, Unconnected, On/Off, Format Disk, Clear Cache, Wi-Fi config), Video settings (Decode video, Upload files, Brightness+/-, CW/CCW adjust), Device status, Clock settings (on/off, needle white/black, dial Digital/Symbol/Zodiac/Constellation, power-on display time H/M/S) and picture play time 5-30 s. Seen in attachments/picture-1.png and picture-2.png."
+}

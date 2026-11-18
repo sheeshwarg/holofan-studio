@@ -1,0 +1,214 @@
+{
+  "id": "ev_34a3e2d4a426cb61d45ad25c6493de310759771c6f298d221242d89cbe55d908",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_pe_resources_list",
+  "params": {
+    "max_entries": 16384,
+    "path": null
+  },
+  "result": {
+    "entries": [
+      {
+        "codepage": 0,
+        "file_offset": 75856,
+        "language": 2052,
+        "name": "102",
+        "rva": "0x314c50",
+        "sha256": "f7cb3c1a03112c3f6b074e85cfb905fca6c51f0d93a87eb90e6c77a6fd827ef6",
+        "size": 386,
+        "type": "AFX_DIALOG_LAYOUT"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 76248,
+        "language": 2052,
+        "name": "140",
+        "rva": "0x314dd8",
+        "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "size": 2,
+        "type": "AFX_DIALOG_LAYOUT"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 76256,
+        "language": 2052,
+        "name": "151",
+        "rva": "0x314de0",
+        "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "size": 2,
+        "type": "AFX_DIALOG_LAYOUT"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 76264,
+        "language": 2052,
+        "name": "153",
+        "rva": "0x314de8",
+        "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+        "size": 2,
+        "type": "AFX_DIALOG_LAYOUT"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 76272,
+        "language": 2052,
+        "name": "136",
+        "rva": "0x314df0",
+        "sha256": "32424b36b107b141734669c3306b7d076788124128b89fcc4bfeef03866ffc43",
+        "size": 4132904,
+        "type": "RT_BITMAP"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 72104,
+        "language": 2052,
+        "name": "100",
+        "rva": "0x313da8",
+        "sha256": "abee52f2c411d3e6f48d62e92859d5535afd988513f7aac7ffcf432897832fc7",
+        "size": 284,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 69584,
+        "language": 2052,
+        "name": "102",
+        "rva": "0x3133d0",
+        "sha256": "5d7bcc1b21086a5ad9e34f92462e055e6f0372aca1b8027127941fda604a0ecf",
+        "size": 2514,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 72392,
+        "language": 2052,
+        "name": "140",
+        "rva": "0x313ec8",
+        "sha256": "e56eaae12edecfc3844a5ffe3f4b571dd235581e874edc8cb336579093c89286",
+        "size": 814,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 73208,
+        "language": 2052,
+        "name": "151",
+        "rva": "0x3141f8",
+        "sha256": "837adf9423394ca7912f27ea24dbde37f4b8f85700479e1abb601de3c741c5f9",
+        "size": 1518,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 74728,
+        "language": 2052,
+        "name": "153",
+        "rva": "0x3147e8",
+        "sha256": "d894c8112a039b28cd064c70f6ad28e31f96bbf74510224e767b3dffc9e8899b",
+        "size": 414,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 4218816,
+        "language": 2052,
+        "name": "156",
+        "rva": "0x7083c0",
+        "sha256": "6eb54801f91b6d8effccbfaefe6b2d7705a274a75940e6226e24e0d4ec58c396",
+        "size": 20,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 4209176,
+        "language": 2052,
+        "name": "1",
+        "rva": "0x705e18",
+        "sha256": "c40c088993b6fc54da48ce3dc14ee677945ad7a5498023ed867f397c17284249",
+        "size": 9640,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 4218912,
+        "language": 1033,
+        "name": "1",
+        "rva": "0x708420",
+        "sha256": "59ba97d56a01766792386c3b379946bb613c8921e3daf8a878855a268ad5e4aa",
+        "size": 548,
+        "type": "RT_MANIFEST"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 4218840,
+        "language": 2052,
+        "name": "7",
+        "rva": "0x7083d8",
+        "sha256": "748558ea52ac8177c63c130584db6bf397bd155e3f5ba4319ab6314c5acd600b",
+        "size": 68,
+        "type": "RT_STRING"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 75144,
+        "language": 2052,
+        "name": "1",
+        "rva": "0x314988",
+        "sha256": "e0988b81f113aedb43ce14839bd3b304bd71264935ce1bf6934352a45e08a9d6",
+        "size": 712,
+        "type": "RT_VERSION"
+      }
+    ],
+    "icon_groups": [
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 9640,
+            "height": 48,
+            "icon_id": 1,
+            "width": 48
+          }
+        ],
+        "name": "156"
+      }
+    ],
+    "manifest": "﻿<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\"><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><application xmlns=\"urn:schemas-microsoft-com:asm.v3\"><windowsSettings><dpiAware xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\">true</dpiAware></windowsSettings></application></assembly>",
+    "truncated": false,
+    "version": {
+      "file_version": "1.0.0.1",
+      "product_version": "1.0.0.1",
+      "strings": {
+        "CompanyName": "TODO: <公司名>",
+        "FileDescription": "LIFEIHAI",
+        "FileVersion": "1.0.0.1",
+        "InternalName": "LIFEIHAI.exe",
+        "LegalCopyright": "TODO:  (C) <公司名>。  保留所有权利。",
+        "OriginalFilename": "LIFEIHAI.exe",
+        "ProductName": "TODO: <产品名>",
+        "ProductVersion": "1.0.0.1"
+      }
+    }
+  },
+  "summary": "15 resources, 1 icon groups, product \"TODO: <产品名>\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 15,
+    "total": 15
+  },
+  "locations": [],
+  "links": []
+}

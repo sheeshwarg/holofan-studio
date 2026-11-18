@@ -1,0 +1,19 @@
+{
+  "id": "unk_60d25f8e7f965360",
+  "revision": 2,
+  "question": "How does the original's \"Decode video\" turn a video into the fan's .BIN file, and what do CONFIG.INI / CLOCK.INI on the SD card hold?",
+  "severity": "medium",
+  "domain": "media",
+  "status": "resolved",
+  "probes": [
+    "Decompile sub_405dc0 (11 KB, OpenCV calls) in the original",
+    "Compare a .BIN from ~/Documents/Holofan with its source video",
+    "Read CONFIG.INI (02 05 00 01) and CLOCK.INI (00 01 00 c0 d2 97 02) against the app's settings"
+  ],
+  "evidence_for": [
+    "ev_61feb109484585ef7e9fb084f75dcc1959ada54fee4697ccf7b18032d34bed56",
+    "ev_8211b608f4d9c19b5a580ccd41fd7c275e7a737d84d569a42ecb961c9d565485"
+  ],
+  "evidence_against": [],
+  "resolution": "The .BIN video format is settled for 42-F2 (verified byte-exact against the person's 4Tiger.BIN) and 6 other fan types (same code path, untested). Still open: CONFIG.INI / CLOCK.INI layout on the SD card, and the packing steps of fan types 3, 4, 6, 9, 10, 11, 13-20; the SD copy leaves the INI files untouched."
+}

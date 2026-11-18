@@ -1,0 +1,5 @@
+# Windows (GNU toolchain): rustc needs a full GNU dlltool (with its assembler next to it) to
+# build the `windows` crates. tools/install-mingw.ps1 puts a portable MinGW here.
+# Ignored on macOS and other targets.
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "dlltool=C:/Users/sandy/AppData/Local/Programs/winlibs/mingw64/bin/dlltool.exe"]

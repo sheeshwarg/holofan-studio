@@ -1,0 +1,260 @@
+{
+  "id": "ev_89cb6e9f0c4513c44d22d2991dd1f9f04f3e0f331022fcd595de2d3fbbfff5da",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 60,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "delete|play|name|size|number|operation|\\.BIN|\\.mp4|\\*\\."
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x40d76c",
+        "references": [
+          {
+            "from": "0x40daec",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Input_Decode_File_Name"
+      },
+      {
+        "address": "0x40d784",
+        "references": [],
+        "section": ".rdata",
+        "text": "Please input the file name saved after decoding!"
+      },
+      {
+        "address": "0x40d7b8",
+        "references": [],
+        "section": ".rdata",
+        "text": "The file name length must not exceed 100!"
+      },
+      {
+        "address": "0x40e0e4",
+        "references": [
+          {
+            "from": "0x4048ef",
+            "function": "sub_403e80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "playing "
+      },
+      {
+        "address": "0x40e120",
+        "references": [
+          {
+            "from": "0x4041d8",
+            "function": "sub_403e80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "This product is a low quality counterfeit, it is suggested to contact the seller to return the goods, you can contact 18825861692(WeChat same number), we will provide you with better quality products at a lower price!"
+      },
+      {
+        "address": "0x40e250",
+        "references": [
+          {
+            "from": "0x4051cc",
+            "function": "sub_4050b0"
+          },
+          {
+            "from": "0x406082",
+            "function": "sub_405dc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": ".BIN"
+      },
+      {
+        "address": "0x40e2d4",
+        "references": [
+          {
+            "from": "0x405a8f",
+            "function": "sub_405a20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "The file to be uploaded(*.BIN)|*.BIN|All files(*.*)|*.*|"
+      },
+      {
+        "address": "0x40e49c",
+        "references": [
+          {
+            "from": "0x405e01",
+            "function": "sub_405dc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "The file to be decoded All Files(*.*)|*.*|"
+      },
+      {
+        "address": "0x40ee48",
+        "references": [
+          {
+            "from": "0x409e2a",
+            "function": "sub_409dc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Play"
+      },
+      {
+        "address": "0x40ee50",
+        "references": [
+          {
+            "from": "0x4046d4",
+            "function": "sub_403e80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Playing"
+      },
+      {
+        "address": "0x40ee8c",
+        "references": [
+          {
+            "from": "0x409e34",
+            "function": "sub_409dc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Delete"
+      },
+      {
+        "address": "0x40f0c8",
+        "references": [],
+        "section": ".rdata",
+        "text": "Wi-Fi name length error!"
+      },
+      {
+        "address": "0x411194",
+        "references": [],
+        "section": ".rdata",
+        "text": "?zeros@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z"
+      },
+      {
+        "address": "0x41121e",
+        "references": [],
+        "section": ".rdata",
+        "text": "cvNamedWindow"
+      },
+      {
+        "address": "0x411300",
+        "references": [],
+        "section": ".rdata",
+        "text": "?resize@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@V?$Size_@H@1@NNH@Z"
+      },
+      {
+        "address": "0x411536",
+        "references": [],
+        "section": ".rdata",
+        "text": "DeleteCriticalSection"
+      },
+      {
+        "address": "0x4120b4",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVInput_Decode_File_Name@@"
+      },
+      {
+        "address": "0x713618",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Play/Pause"
+      },
+      {
+        "address": "0x713808",
+        "references": [],
+        "section": ".rsrc",
+        "text": "How long the picture play"
+      },
+      {
+        "address": "0x7138f0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Playing settings"
+      },
+      {
+        "address": "0x713a24",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Set the Power-on display time"
+      },
+      {
+        "address": "0x713fec",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Inupt new name:"
+      },
+      {
+        "address": "0x714806",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Please input file name and select decoding mode"
+      },
+      {
+        "address": "0x7148a4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Please input file name"
+      },
+      {
+        "address": "0x714a26",
+        "references": [],
+        "section": ".rsrc",
+        "text": "CompanyName"
+      },
+      {
+        "address": "0x714aca",
+        "references": [],
+        "section": ".rsrc",
+        "text": "InternalName"
+      },
+      {
+        "address": "0x714b62",
+        "references": [],
+        "section": ".rsrc",
+        "text": "OriginalFilename"
+      },
+      {
+        "address": "0x714ba6",
+        "references": [],
+        "section": ".rsrc",
+        "text": "ProductName"
+      }
+    ],
+    "total": 28
+  },
+  "summary": "28 strings match \"delete|play|name|size|number|operation|\\.BIN|\\.mp4|\\*\\.\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 28,
+    "total": 28
+  },
+  "locations": [],
+  "links": []
+}

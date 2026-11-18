@@ -1,0 +1,69 @@
+{
+  "id": "ev_c4e13525207a925bf44df24bb0334a7bee93539a9b356a6862e13948c4a9ac7c",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_xrefs_list",
+  "params": {
+    "address": "0x40d0d0",
+    "limit": 200,
+    "offset": 0
+  },
+  "result": {
+    "address": "0x40d0d0",
+    "name": "__imp_WS2_32#16",
+    "references_from": [],
+    "references_to": [
+      {
+        "from": "0x403ee6",
+        "function": "sub_403e80",
+        "kind": "import"
+      },
+      {
+        "from": "0x404a25",
+        "function": "sub_403e80",
+        "kind": "import"
+      },
+      {
+        "from": "0x404ece",
+        "function": "sub_404db0",
+        "kind": "import"
+      },
+      {
+        "from": "0x4052d8",
+        "function": "sub_4050b0",
+        "kind": "import"
+      }
+    ],
+    "total_to": 4
+  },
+  "summary": "0x40d0d0 is referenced from 4 places and refers to 0.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "static_references",
+      "message": "references made through computed pointers at run time are not seen"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x40d0d0"
+    }
+  ],
+  "links": []
+}

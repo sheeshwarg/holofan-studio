@@ -1,0 +1,98 @@
+{
+  "id": "ev_cd6efc63b54660d59fa67cf657664f8435d733b0d792a0264aaec2a728b9e989",
+  "subject": {
+    "kind": "pe",
+    "sha256": "9a5476c4105b5afb7de244f6847b0bd08d0e87cbb8628a9a339c7be788f51d7e",
+    "name": "@Windows app(V13.0).exe"
+  },
+  "operation": "native_functions_decompile",
+  "params": {
+    "addresses": [
+      "0x409050",
+      "0x409490",
+      "0x404cd0"
+    ]
+  },
+  "result": {
+    "failed": 0,
+    "items": [
+      {
+        "entry": "0x409050",
+        "input": "0x409050",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "int32_t sub_409050()\n{\n    eax = arg_8;\n    ebx = *(uint32_t*)(eax + 12);\n    esi = ecx;\n    edi = *(uint32_t*)(eax + 16);\n    ecx = esi + 0x44f0;\n    mfc140#13582(0, 3);\n    if (*(uint32_t*)(esi + 0x1c80) != 0) {\n        if (ebx != *(uint32_t*)(esi + 0x4594)) {\n            if (ebx != *(uint32_t*)(esi + 0x459c)) {\n                if (edi == 4) {\nlabel_40909a:\n                    arg_8 = 0x42;\nlabel_4090a4:\n                    eax = &arg_8;\n                    arg_9 = bl;\n                    ecx = esi;\n                    sub_408a80(eax, 2);\n                } else {\n                    if (edi == 5) {\n                        if (edi != 4) {\n                            arg_8 = 0x41;\n                        } else {\n                            goto label_40909a;\n                        }\n                        goto label_4090a4;\n                    }\n                }\n            }\n        }\n    }\n    eax = arg_c;\n    *(uint32_t*)(eax) = 0;\n    return eax;\n}\n",
+        "signature": "int32_t sub_409050()",
+        "structured": false
+      },
+      {
+        "entry": "0x409490",
+        "input": "0x409490",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "int64_t sub_409490()\n{\n    eax = fs:[0];\n    eax = *(uint32_t*)0x412014;\n    eax ^= ebp;\n    eax = &arg_fffffff4;\n    fs:[0] = eax;\n    esi = ecx;\n    ecx = &arg_ffffffec;\n    mfc140#316(0x40c609, -1);\n    eax = &arg_ffffffec;\n    arg_fffffffc = 0;\n    edi = __imp_mfc140#5401;\n    ecx = esi;\n    rax = (*edi)(0x43c);\n    ecx = eax;\n    mfc140#7783();\n    eax = arg_ffffffec;\n    ecx = &arg_ffffffec;\n    rax = mfc140#5095(*(uint32_t*)(eax + 0xfffffff4));\n    rax = atoi();\n    if (eax > 0x1e) {\nlabel_409550:\n        ecx = esi;\n        rax = (*edi)(0x43c, 0x40ee44);\n        ecx = eax;\n        mfc140#14054();\n    } else {\n        if (eax < 5) {\n            goto label_409550;\n        } else {\n            if (*(uint32_t*)(esi + 0x1c80) == 0) {\n            } else {\n                arg_fffffff1 = al;\n                ecx = esi;\n                eax = &arg_fffffff0;\n                arg_fffffff0 = 0x43;\n                sub_408a80(eax, 2);\n                ecx = esi;\n                rax = (*edi)(0x43c, 0x40ee44);\n                ecx = eax;\n                mfc140#14054();\n            }\n        }\n    }\n    mfc140#2298();\n    ecx = &arg_ffffffec;\n    mfc140#1044();\n    ecx = arg_fffffff4;\n    fs:[0] = ecx;\n    return rax;\n}\n",
+        "signature": "int64_t sub_409490()",
+        "structured": false
+      },
+      {
+        "entry": "0x404cd0",
+        "input": "0x404cd0",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags"
+        ],
+        "ok": true,
+        "pseudo_code": "int64_t sub_404cd0()\n{\n    esi = arg_8;\n    edi = ecx;\n    al = strncmp(0x40e22c, 8);\n    if (eax != 0) {\n        al |= 0xff;\n        return al;\n    } else {\n        eax = esi + 16;\n        al = strncmp(eax, 0x40dd44, 12);\n        if (eax != 0) {\n            al |= 0xff;\n            return al;\n        } else {\n            eax = *(uint8_t*)(esi + 8);\n            ecx = eax + eax * 4;\n            eax = *(uint8_t*)(esi + 9);\n            ecx += eax;\n            eax = *(uint8_t*)(esi + 10);\n            ecx = ecx + ecx * 2;\n            ecx += eax;\n            eax = arg_c;\n            eax += 0x18a;\n            if (ecx != eax) {\n                al |= 0xff;\n                return al;\n            } else {\n                if (ecx != 0x1a6) {\n                    al |= 0xff;\n                    return al;\n                } else {\n                    cl = *(uint8_t*)(esi + 11);\n                    if (cl != 0) {\n                        cl &= 0x7f;\n                        *(uint8_t*)(edi + 0x44b4) = cl;\n                        eax = *(uint8_t*)(esi + 11);\n                        eax &= 0x80;\n                        *(uint32_t*)(edi + 0x44b8) = eax;\n                        if (cl >= 0x40 /* unsigned */) {\n                            al = 0x7f;\n                            return al;\n                        } else {\n                            ecx = *(uint8_t*)(esi + 12);\n                            eax = *(uint8_t*)(esi + 13);\n                            ecx <<= 8;\n                            ecx += eax;\n                            eax = *(uint8_t*)(esi + 14);\n                            ecx <<= 8;\n                            ecx += eax;\n                            eax = *(uint8_t*)(esi + 15);\n                            ecx <<= 8;\n                            ecx += eax;\n                            if (ecx != *(uint32_t*)(edi + 0x44b0)) {\n                                al |= 0xff;\n                                return al;\n                            } else {\n                                al = 0;\n                                return al;\n                            }\n                        }\n                    } else {\n                        al = *(uint8_t*)(esi + 12);\n                        return al;\n                    }\n                }\n            }\n        }\n    }\n}\n",
+        "signature": "int64_t sub_404cd0()",
+        "structured": true
+      }
+    ],
+    "succeeded": 3
+  },
+  "summary": "Decompiled 3 of 3 functions.",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "macos-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "pseudo_code_inferred",
+      "message": "pseudo-C from the clean-room lifter is register-level and approximate"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x409050"
+    },
+    {
+      "kind": "address",
+      "value": "0x409490"
+    },
+    {
+      "kind": "address",
+      "value": "0x404cd0"
+    }
+  ],
+  "links": []
+}

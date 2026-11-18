@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editoren / IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Rust / Build-Ausgaben
+target/
+dist/
+**/*.rs.bk
+*.pdb
+
+# Logs
+*.log
+
+# Umgebungsvariablen / Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Claude Code (lokale Einstellungen)
+.claude/settings.local.json
